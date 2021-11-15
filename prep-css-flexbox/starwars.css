@@ -1,0 +1,11 @@
+.star-wars-card {
+  padding: 0.5rem;
+  border: 1px solid lightgray;
+  border-radius: 0.25rem;
+  box-shadow: 0 8px 8px -8px rgba(0, 0, 0, 0.5);
+}
+
+.star-wars-card img {
+  width: 100%;
+  background-color: lightgray;
+}
