@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>CSS Layout Classes</title>
+    <link rel="stylesheet" href="reset.css" />
+    <style>
+      /* stylelint-disable block-no-empty */
+      body {
+        font-family: sans-serif;
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      h3 {
+        text-align: center;
+        text-decoration: underline;
+      }
+
+      .container {
+        max-width: 992px;
+        margin: auto;
+      }
+
+      .row {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+      }
+
+      .column {
+        flex-basis: calc(100% / 3);
+        padding: 0px 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Complete the HTML here -->
+    <h1>Indiana Jones</h1>
+    <div class="container">
+      <div class="row">
+        <div class="column">
+          <img
+            src="https://m.media-amazon.com/images/M/MV5BMjA0ODEzMTc1Nl5BMl5BanBnXkFtZTcwODM2MjAxNA@@._V1_.jpg"
+            alt="Raiders of the Lost Ark"
+            style="width: 100%" />
+          <h3>Raiders of the Lost Ark</h3>
+          <p>
+            "Lucas conceived Raiders of the Lost Ark in the early 1970s. Seeking
+            to modernize the serial films of the early 20th-century, he
+            developed the idea further with Kaufman, who suggested the Ark as
+            the movie's goal. Lucas eventually focused on developing his 1977
+            space opera Star Wars."
+          </p>
+        </div>
+        <div class="column">
+          <img
+            src="https://m.media-amazon.com/images/M/MV5BMGI1NTk2ZWMtMmI0YS00Yzg0LTljMzgtZTg4YjkyY2E5Zjc0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg"
+            alt="Temple of Doom"
+            style="width: 100%" />
+          <h3>Temple of Doom</h3>
+          <p>
+            "Lucas conceived Raiders of the Lost Ark in the early 1970s. Seeking
+            to modernize the serial films of the early 20th-century, he
+            developed the idea further with Kaufman, who suggested the Ark as
+            the movie's goal. Lucas eventually focused on developing his 1977
+            space opera Star Wars."
+          </p>
+        </div>
+        <div class="column">
+          <img
+            src="https://m.media-amazon.com/images/M/MV5BMjNkMzc2N2QtNjVlNS00ZTk5LTg0MTgtODY2MDAwNTMwZjBjXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_.jpg"
+            alt="The Last Crusade"
+            style="width: 100%" />
+          <h3>The Last Crusade</h3>
+          <p>
+            "Lucas conceived Raiders of the Lost Ark in the early 1970s. Seeking
+            to modernize the serial films of the early 20th-century, he
+            developed the idea further with Kaufman, who suggested the Ark as
+            the movie's goal. Lucas eventually focused on developing his 1977
+            space opera Star Wars."
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
