@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript DOM Creation</title>
+  </head>
+
+  <body>
+    <div id="container"></div>
+    <script>
+      // Your code here
+      var $container = document.querySelector('#container');
+      var $heading = document.createElement('h1');
+      $heading.textContent = 'Hello World!';
+      document.body.appendChild($heading);
+      console.log($container);
+      console.log($heading);
+    </script>
+  </body>
+</html>
